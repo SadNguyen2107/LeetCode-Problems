@@ -1,25 +1,28 @@
-public class Solution
+namespace LeetCode
 {
-    public int[] TwoSum(int[] nums, int target)
+    public class Solution
     {
-        Dictionary<int, int> map = new Dictionary<int, int>();
-
-        for (int i = 0; i < nums.Length; i++)
+        public int[] TwoSum(int[] nums, int target)
         {
-            int complement = target - nums[i];
+            Dictionary<int, int> map = new Dictionary<int, int>();
 
-            // If the dictionary contain complement
-            // Return that index + map[complement]
-            if (map.ContainsKey(complement))
+            for (int i = 0; i < nums.Length; i++)
             {
-                return new int[2] { map[complement], i };
+                int complement = target - nums[i];
+
+                // If the dictionary contain complement
+                // Return that index + map[complement]
+                if (map.ContainsKey(complement))
+                {
+                    return new int[2] { map[complement], i };
+                }
+
+                // If that dictionary does not contains that number
+                // Add to the dictionary
+                map[nums[i]] = i;
             }
 
-            // If that dictionary does not contains that number
-            // Add to the dictionary
-            map[nums[i]] = i;
+            return new int[0];
         }
-
-        return new int[0];
     }
 }
