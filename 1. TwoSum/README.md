@@ -1,4 +1,4 @@
-# 1.Two Sum
+# 1. Two Sum
 
 <div class="flex flex-col" style="position: relative;"><div class="elfjS" data-track-load="description_content"><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
