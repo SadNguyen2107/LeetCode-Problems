@@ -5,12 +5,12 @@ namespace LeetCodeTests
     [TestClass]
     public sealed class TwoSumTests
     {
-        private TwoSumSolution twoSum;
+        private Solution twoSum;
 
         [TestInitialize]
         public void Init()
         {
-            twoSum = new TwoSumSolution();
+            twoSum = new Solution();
         }
 
         [TestMethod]
