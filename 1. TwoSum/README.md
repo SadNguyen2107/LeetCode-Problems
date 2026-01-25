@@ -64,7 +64,7 @@ If this complement already exists in the dictionary, we have found two numbers t
 ```csharp
 namespace LeetCode
 {
-    public class TwoSumSolution
+    public class Solution
     {
         public int[] TwoSum(int[] nums, int target)
         {
