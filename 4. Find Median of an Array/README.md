@@ -1,4 +1,4 @@
-# Find Median of an Array
+# 4. Find Median of an Array
 
 Given an array **arr[]**, the task is to find the median of this array. The median of an array of size n is defined as the middle element when n is odd and the average of the middle two elements when n is even.
 
