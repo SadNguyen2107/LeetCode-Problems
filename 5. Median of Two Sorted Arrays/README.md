@@ -1,4 +1,4 @@
-# 4. Median of Two Sorted Arrays
+# 5. Median of Two Sorted Arrays
 
 ## Problem Description
 
