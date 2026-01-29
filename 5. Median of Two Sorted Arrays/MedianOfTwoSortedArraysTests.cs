@@ -5,12 +5,12 @@ namespace LeetCodeTests
     [TestClass]
     public class MedianOfTwoSortedArraysTests
     {
-        private MedianOfTwoSortedArraysSolution _solution;
+        private Solution _solution;
 
         [TestInitialize]
         public void Init()
         {
-            _solution = new MedianOfTwoSortedArraysSolution();
+            _solution = new Solution();
         }
 
         [TestMethod]
